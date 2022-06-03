@@ -761,7 +761,7 @@ def menu():
     	print "\n%s [01] Hasil crack akun facebook "%(P)
         print "%s [02] Hasil crack akun instagram "%(P)
         c = raw_input('\n%s [?] Menu : %s'%(P,H))
-    	hasill(c)
+    	hasill()
     elif _romi_x_mbokey_ in['8','08']:
         jeeck_cp()
     elif _romi_x_mbokey_ in['rm','Rm','RM']:
@@ -798,7 +798,7 @@ def hasill(c):
 				print("%s [!] file tidak ada "%(M))
 			#
 			print(" %s[%s∆%s] --------------------------------------"%(P,K,P));jeda(2)
-			for akun in total:
+			for akun in total fb
 				fb = akun.replace("\n","")
 				tling  = fb.replace(" *--> ", " *-->").replace(" *-->", " *--> ")
 				print(tling);jeda(0.03)
@@ -1158,5 +1158,5 @@ def ingfo(user, pw, status):
 loping= 1
 if __name__ == '__main__':
     os.system('git pull')
-    folder()
-    menu()    
+    folder(y)
+    menu(x)    
